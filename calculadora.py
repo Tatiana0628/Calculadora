@@ -1,7 +1,7 @@
 def sumar(a, b):
     return a + b
 
-
+// resta de 2 valores
 def restar(a, b):
     return a - b
 
@@ -19,6 +19,7 @@ def dividir(a, b):
 def main():
     numero1 = float(input("Ingrese el primer número: "))
     numero2 = float(input("Ingrese el segundo número: "))
+
 
     print("Resultado de la suma:", sumar(numero1, numero2))
     print("Resultado de la resta:", restar(numero1, numero2))
