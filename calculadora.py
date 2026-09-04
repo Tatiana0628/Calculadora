@@ -11,8 +11,9 @@ def multiplicar(a, b):
     return 
 
 def dividir(a, b):
-    # TODO: implementar división
-    return 
+    if b == 0:
+        raise ValueError("No se puede dividir entre cero")
+    return a/b
 
 def main():
     numero1 = float(input("Ingrese el primer número: "))
