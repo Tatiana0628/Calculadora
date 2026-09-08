@@ -8,11 +8,12 @@ def restar(a, b):
 
 def multiplicar(a, b):
     # TODO: implementar multiplicación
-    return 
+    return a x b
 
 def dividir(a, b):
-    # TODO: implementar división
-    return 
+    if b == 0:
+        raise ValueError("No se puede dividir entre cero")
+    return a/b
 
 def main():
     numero1 = float(input("Ingrese el primer número: "))
